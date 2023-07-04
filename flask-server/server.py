@@ -2,12 +2,12 @@ from flask import flask
 
 app = Flask(__name__)
 
-# Members API Route
-
+# members APi route
 @app.route("/members")
-def members():
-    return {"members": ["Member1", "Member2", "Member3"]}
 
-if __name___ == "__main__":
+def members():
+    return {"members": ["membr1", "member2", "member3"]}
+
+
+if __name__ == "__main__":
     app.run(debug=True)
-    
